@@ -1,0 +1,25 @@
+package methods;
+
+import java.util.Scanner;
+
+public class switchstatement {
+
+	public static void main(String[] args) {
+		int a;
+		System.out.println("pick one-1 hi\t 2 hello\t 3 hey");
+		Scanner sc=new Scanner(System.in);
+		a=sc.nextInt();
+		switch(a) {
+		case 1:System.out.println("you said hi");
+		break;
+		case 2:System.out.println("you said hello");
+		break;
+		case 3:System.out.println("you said hey");
+		break;
+		}
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
